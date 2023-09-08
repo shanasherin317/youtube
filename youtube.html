@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>youtube</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="d-flex">
+        <img
+          src="https://img.freepik.com/premium-photo/youtube-logo-video-player-3d-design-video-media-player-interface_41204-12379.jpg"
+          alt="" class="img1">
+        <h1 class="fw-bold mt-4">Youtube</h1>
+        <div class="container-fluid mt-4">
+          <form class="d-flex p-relative" role="search">
+            <input class="form-control me-2 pt-3 pb-3 rounded-5 ms-5 w-150 " type="search" placeholder="Search"
+              aria-label="Search"> 
+              <div class="divo">
+                <i class="fa-solid fa-magnifying-glass"></i>
+               </div>
+             </form>
+        </div>
+        <div class="mt-4">
+          <button type="button" class="btn text-primary " disabled data-bs-toggle="button">Signin</button>
+        </div>
+
+      </div>
+    </div>
+    <div class="mt-3">
+      <div class="d-grid gap-2 d-md-block">
+        <button class="btn btn-dark text-light" type="button">All</button>
+        <button class="btn btn-secondary text-dark ms-3" type="button">Musics</button>
+        <button class="btn btn-secondary text-dark ms-3" type="button">Trailers</button>
+        <button class="btn btn-secondary text-dark ms-3" type="button">Films</button>
+        <button class="btn btn-secondary text-dark ms-3" type="button">Game shows</button>
+        <button class="btn btn-secondary text-dark ms-3" type="button">Series</button>
+      </div>
+      <div class="d-flex mt-5">
+        <div class="card ms-3" style="width: 18rem;">
+          <img
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgWFhUYGBgYGBgYGhgaGBgYGBoYGBgZGRoYGhgcIS4lHB4rIRgYJkYmLS8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QGhISHDQhISE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQxNDQ0NDE0NDQ0NDQ0NDQ0P//AABEIAKgBLAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAACBQYBB//EAEEQAAIBAgQDBgMECAUDBQAAAAECAAMRBBIhMQVBUQYTImFxgTKRoUJSsdEUI2JygpLB8AcVVKLiwtPhFjM0U7L/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAIREBAQEBAAIDAAIDAAAAAAAAAAERAiExEkFRgbEDImH/2gAMAwEAAhEDEQA/APkMshtPSs8tAIrQ1M3gFEcw6QGaS6RmmJRBLgyovlnue0qjy7WlAqhvFikPUMGdYqQAwbCEbeeol5lQlpwuT6woSESlnumzizIeRbkCfusLj1t0MKRRT4kO6kg/n7iBw2oKH9pfexK/UCMYh9FqAEFTkdbai21x1B0+UVrJ9oaZWA03sNj8iJnWse4QeLKd7H6QlIizgnbSHrUwtdB+1l/hY5bn5xrC4Ud/VUi9qTt7qLa+psPeZLPLPbDHuGY3GoKjqCV1i7ragp6sfx/8TocBl7+hRJv+tprca6K6aWA82/lMrxXh6/rKK/YqDLpfSpUOXn0Mm/2uMXEUGC00+9bT11N/nDYhMzrTGwtf91fzjmJw+XFFfu5svkAx1Pov9IDDiz1mOp0Cgcy3wjX+H5xL9r8UxKZrINtz7HQe5/AyV9wi7kfJVGrH5GGxAFOybsBmcj721vn+Bgw3d0y7C9SsbIvSmpH/AOmt7J5zfNZsXpLz10lnWesmQhC13td+gbmPIDRfUGWZxb6CdJdYsCUa7aCNhyIBSIam15WRA5tvCXsLSgp21kQawIw8ovUjDi8DiKRAgI1Ysd4w6wLJI09VZQm09d9IBmMA4eULiCEoaYkFrStoQSFZFUEbw7xYiWS4gai1JdRF6GscRIQM6SyG5lq1I2uIJDLCiNTgGMYDXHnBskoCUvLIkKi2MsUtIL0KVzexIAu1twuxP1iWIrCxIa7UyV6Z0Da6bi2p8td43UfLnAJDqLgcyQCWX3Fx6HzmNiGFQlgbHYjqLbjqQPoJndrcmQ7jK572o1swdTmGwLrYMw63Kkn96Vw1AOHGwdbi/IjT8vlM7CVWzfFfLdgDsTYAjyuAB8o5ga4NUAaX0Cn4b2I1tbTUGZsXmneIYfNaonxFBcfdIa6+9/wmk9lrVKqW8dC2oJ1ZtdvIL84l2hwQTLWpMSvwt1V7a+xNzz0M0MDWyfotR1KqSFtrojkZGOnwmwP5TKsBccqVkZFJKZAMuoJRwxI63t+M0sVi8rtWIDCo1OpYNY3Qghee9ox2e4D32JxFNgVVLjvNlUZrWt9okbehnfYTsLhKqqher4QfEHXW99wVtbWLZCPmdGsKlV6tiO8NgD9lAAW+otPKVVVdiTzLWO5NuXWwAnYcd7FthTTKsGTM/jClTkJLWYagOM2Ua6gA+U42jZ6rta4VsouBtZgSdNST9Aekz48taomXK1R9r3I6sdh7D+9YbAVBmqYqpY90l6SEEqX0VCf2QzA2536AynGaOXKG+G9wg0JufqfTrMviGKzsANFVQLbDqbD1Jm+WacWkRlJN3dc7Hckk6L62+t4QHX8IPhSlWutixW+v2VZlW+oOpzADfUj1l6vxGxza79fP++s3KzYuqx7DqBv7ROklxD0285uOdMXuYQLY6bfnAoQJ47yoNUKg6RerUHWAdjeBcw0lZhFajQrtF3MgFeQT3LKgQPSYF31hgsE9HWB6DDKJS0IpmR5aFRJ4pjFMQotBbR1Ui1IR2jU5QJbSK1EsY5ngalmMqAkywOkq4IkteBYC8NQtcXFwCDbbn1gaZ5RhVPIXNjYdTY2HztIRn8UbI7ldcoH8dIkFD+8uin90ecw2BLHLstyCN7A7+03eOhlyMCL5c62+1TcDU9RckadWmFSAUozXyk6hTZiv2gDyuCRJG7VrXIZdDzHRvyP5zTamrEVVAsSFawyhW08Yv8Izf16QvF+ClUTE0VvQqC665mQgDMtTkNbgdbddJXDuDZVAObVzry1BIG+wMlpI0nLopzoVRgQzsCRptZDyzE6nXU2heD1EpsyOxdK6qgcnNa+mW2w1Ia4+7B4JzU/UVC5VldUZs5s1iwsLjc2XXQXvaZ/D6ZzjD1LrlqKpvpuwFvXec2nWcFR8PRtUZi7tc5m5rcDU65Qo082M7Hsri7vlLqAR5bet9Zx3GMatTEshBVcjIttPhtr/ALWmzwDgtN6SWZ89OuDoSCVIHxMNQtx15mcur9114n46T/EMM2Bd1YDusr2JsCVupHncPt1A6z5WFytTQWJFu9fUEpuGqACwYZWUG+txe9p9getSrvicM651UUs4sPtKDmXe5XwnyInxzG0KtDFVg7FHzmmG5BAQc/Sx8IHrqN5r/HdljHUyszE1Axd7mxJROuUWuw6XuJitT0LTqqWD/Wh8qFXHjCiy/FuE0ClstiOWp02mVxmshuiIM2fNcACy2ICWHrf2E6y+cjP/AEXAIyUe/YDI1UIb28eRC+T90tkv7QlDAhaYZj4idRzAIBC+Rscx6ZlHW2fg658AqAsiXZE1IZuSafeIFzvYHym7jqSoWQuHbO3jXVWNg1Rgdjq6r6qZr7Zt8EfIbQmTzk0lc52E6RzpimbbmeO/lKA2G954FzCVAS2ssqQbLGKO0NFWSLOscxAgbSBfaDaHqCBYQIkhMgMqXgeAwqLeBBhEeZBgkKmkCGhUaFMpUjVJhMyNUGhDsDVW20uZVpRS2ksg0l4SmJAC9/WHovYg7EHT1Gs8qUeYhEpqUfMbALmvzUg+Fx6EgejGS1YyK1PVlZiMtzRJvbIzEldPs3b5gzOpAuppndczC/W+oE0eKMGpnMtnSrfTbJUUk2PS6i3SCfB/rFZW+LxDXcFbgeXSSVqmeHcSqYdWovqhch6L6KTexvzUi17jYgSiUQLtTzKhJ8Ztmsb2sP6naU4lRapRXEZgzK5pVLLY6Amm/wC0CFZc37AvrqWsOoyhkHgVdffX3tz9fIyXx5WeRMRi8yg5TnU5cqtZLKFYve3h5aa63nSdm8A1c/pGJWxRi4Uplzup8LOx1cCwsNorwngzVFKsyIg2YsCRc7WB5aTt6BRnVGsyJtppptpOXXWem+eduPm3EajviGf7rgZuWpAOvPcid52Jyo7Fkbx2ytplzJuOt9ZfjHC0Z1CKpGrZQLA20N/ciaPDMLkSyrYiojgE30Gja+YnPrrZHbjnLQeFU2oY7FGqSM5zo5vlyZcxJbaw8XoFnz/tbxU4zFMUI7tyUVsurIgVXfzBIAF59Xr1QuIKt41r0ipQ2K3TZbHqHYGcp2g7Ep3bVsKDTZFJenclO71LZL6qRv0I6G01xkusd7f4cHQxgLd2CRlU3a62LDw2a/xHqRrvvMh6bZnOl7tma4sLGxsdiPMRs0GNayHKqLZiNBrfT0/8zyuxqt3VHdhbXQsqjPbXa+W9vKdcctK4JyxKJluQVVjoFU/Gx06D8tbTphgEdlVHCJSomxI2RAWLuObu7HTlmUdJzaYQZlygkZgoAOU1DfVQeQvpflOgrMqo6Byzl81ZwPCXFslJOWVQHJ6EKOU1rNZbmVRtYRlHK8slC2s6cs1RTGVbSCqrpKKZpnAy+vlCrUEBUlADCmH1EWdZYPPM8AbJBOIy5irmQUYQZWehpR6gvAqGhFeUtLKJlTKQqCBpGMqIQQKLT1J5eWQQG6cuTB0TGNxAlFbw64ee0qW00FQAS4ml+40h8C6pnDIrq6MhvuFcFWt7E+9ukLRtznppyVqOYfhbur0r3qUNj9+mdUbzGo9isSqYVilPLfOeQ3Hi0A8wdLek7g8KxOejiEp2yF1LZge8poCxut/h+NA2x0+6IccCV69PGUGApZahdCL5XRCCuX7+YIpXnvfnOVvlvw5nhLLhsM611DGqyLlOhCXzFg3JgNfcDW9phcPqFXyKSqO2XMw2v0XqdtfKGwlB6iVKzNm7pkTW+XNULAN0GiOTDYrBZAoY2JUMpJvmUhXVr9fGvzEpId7hkqFAWDNZkcG55AeWh8rWInad8QrONLAkewnLYJy9Pvm3S6oeWcixOm4F/nGsdTcYZrOc4AJJ0I2LDTQ897zn1N9unNx1HB8QzsjMdcuULbmTc3M6nHuqUc4te4HuZ884fimUob9Oe1vP8/nOk7Q8UbIiIjkuVICi+2lwb2bcjTqPMSdcz6XnuxsYOmKqKSwDhlZL8uR28ifpNmiFqGrStsCjfxprb+acj2UxTu48Ol7DlYDr0/OaQ4hXXE4l0ymnTOqkqCciAMdfMHmDpaZ+OYXr5a+IYjEsVK2U+LxCwBtYWYjnf05QuGw/dMlc3yltTzudiNOd/qIXinD1OJdKIYfrqieI3KhS11vYbBTb0gMXja57tipNJX8BC+B2U7AkWbYzvHK+BbVEqKKIvUqs1OkhF2VWOVMo5N4rX63m9xjAYei3cK7N3dKmAQtr1HGeqzH7TEsuvQW5CbKcGSjiMVi/EiUEZKQZhnao9M52QgWAVC+XcXZddJyr12qO7t8TszG2wub2HkNvaWXUoXdWl1pwy05446TcZpKqmsEFtGmU3lHQzSAOIJhGmok7ReohWUCIgnhyYGpIK5oNzITBVDAFVaAhHaVyzNUdlkUS7yAiBKcaQxMGM0xAbUQtNYGlGUMIugjCJrAoIzSOsB6ioEOHiqmEQTQPTeFV4JFjCoDMVqF8b2jOFNjnu9Ish3U5alwh8iUIOmzecU7OdosRh6OIqrQYqSte7hwjMXRWIbYnM6nQ3svlGOK8N/SEqIFuyqMh0vnBzZQf3dP45o8I4VTqcOaslE5lw2KplTa4Yp8ZNtbFVIPU+szcacfxjirU6uMphMq13D93ZcilgWDEW+JQ5ta2pN72mLgqD1KlOmSxzkBdb2BAF/QBR7LLcS4zUrsrOFzKioWC2L5UWmGc31bKo1nWdgaSMKlQrqiKqk8s9y9vZV+Z6y24k8j8aRadNaKeFVFz1sOvmTHatBnotkBZiDZRqxFuQ5+kyOL1s72+8fpy/CFwHE8jWuQFsPp16zl1NmunNm+QeG4h3IQEsw0Og0t57zsuD0Kve0SznXMiHKpsCLlrWA0i1LFU6njFlc7sALMerDr5ibWDrgPQFwcoYsQbgC1vr4r+VpNlX42HmA4dQNQ5XCJ+rzDxE8kzX130v84LsFWL53t8RLc7XY3IBO+pgK1Cpju7QgikgGcE3DOrG2mxt/fOddw+ilMKi20G39Zm3bI1Jktr4322/R1xlSzhSyUnVhbQhMrhhpmYgD0t1jHCMHm4UtNrNmxWHddLEd8wut+QsnLnflvyvat0fHMr5lVXam5AuyhXYMbcyNfW06DsY7HA1GdwUTE4Vxc6IEqhWDX2B74EC1tDr07Wf66475xsf4g4wAuiaIrmio6suWpXb+Y0U8u7InIYSb3aTD0C2VcSaxRXbwISveOzVS7VGIBDF9SNgOdrTBwgl59JTaieMIYLL5JvmM2kyvO0t3ccFKCcec2wXRLRDEi5mi40mdVEVYVYWgWMO5gbSKGRAVBrCVHgmqQF3SBzxhzeAyzKmiJ5IrSEwPUMYR4qDPc0DRp1IwHmZRePIdIDtJ7xpTrFsKvWNsussSjIbQ6PFg2sdor1hMEz6S9JwecqwEiqJitxpYLiVOgweoFZT4FVgDd30Ww58/a55Tmeynamrgu9olFqUiShp5iuV2LqWRje4IFiCNRbmNQ9pK7VKZy2RKLZlc3BqVNFZE6hQN+RuOc5/iDnOaqgDPlqfus2bTzNwx22jFtL4iiq5SL/AAjMCQfFoTbTbUe9513ZXFKlOqg0LKtj1CkhyPTOPn5Th8x/vznU8HcLQLH4j4V01sNWNz52+UdEM1Wu9zyH4bnymjhuHBk1AvmLW6kb/IzFo4kM6La+Z0DdLZxoPKdhiKIKrysSQfM3v9ZFKYbg7L4g+Wwvbcadddo/w01GbMxULccmIPVf2hvqCCDKU6p25D6whrZr9BpM2RqWx3vDKbLQGRsw2DkXexvctawPiiGCd6WKOckh8puTfwuAR7B8w9BJ2Px9gUY6bj35SvbOqEq0QujFKjD+EqQPq8z8ZGr1b7fNf8U+BsmPNQWCYgZgbaB1UB00+0bBvPP6x7shQSnw+o+aj3lXOqJV8SObkszqfCVVKea2uo13AndcU4fSx2GCvs6BlfdkqJ4Q6+YvYjntPi9OjWSr+iVqhRKNRmKm1lK3JdQeqktvYj2nSeY5WZXRdnmasRRNPNSVctYpZFLqzin3lRbZVLZRceFfASLCZlFlzsFa6hiFJFiVvoSORtaafDeOpTwzUcOoy02V61RrjO7Oq0qyroQiOEGVtbOOkzMBg6lTOy5TkuxFwC1rljTFtbBWNugNhpHpWpTIM9zCJU20h1a4nTlz6MhrxasbTzvLaxSviLzTOK1akVckwqC8FWMBVzaeMZ65vBu8jQDprAssYcwDvIANKXlnMHIownhMl5W8C15FlZdIB00jlKpEQYSm9oGvSeNl9JlUql4wtSA8j6xum8yw/nCLVtJRrO/pBNigoubnyClj7AbzNbFHrLUa5BuQSAA3sSQG9MwhY84zjkrYcOwOVR3dJfhyvnZ3ZrEhmy5Ra2gZfOc3XxJcKCAAihQB5cyeZhcXWqKr0n1DOKlyNcxB8SnlmBF/QRBWjDTvDhRLWrF1TqgBa/vy+fKdJxPHUlAVE0C+EeL4RbW2x1N/UzlKFtzt06+U0a9YMqCw+Aj11X8pKsN8GqZ8RTJsBmvbzANgSdzcCd9VoXGnLlPlVKobXBsVI1HKd12X421ZilQAMAMrjTOBoQR153HnIrUFErfpb8ZRNAfO80qqXvM2opzWkpK1ez+MCuL7bH+s6/jvDBiKVx/7tG7UyLEtpfIT91gAPI2M+a4ZirWvYk6G3P8AKd/2b4rnGQ2DqCBuLgaj5a/2JjW2VwTGDuyFN0J7xCOaOPEB05/KZXbDsicSRVpELWpiwY7Oq7BujDkfOx5EblbBpTZ8oyqzioo5L3jZXQdASQ1vOHwFQ5QG0uxsunwk3y+RDZh7TcZr4W9J6IZHDLm0qKQVKspJVSvTVW+RG0c4bjhTQhVYElgzh/EadguRVtZTYt4tzmttv9A/xGwtIKuICA5GQMwAOZSWyhx9oBgBY8mYT5tQZznbKArBsq2AAGZScl9dPCOtj5zXtn02MUQjuivmVGZQ33gDYGepiDMqlUh1qyxK0mqXEXFryi1RaeF50ZFV7XiuIeWerE6tTWExVnlGaVZoJ3kVZ3gXaS8re8go0peEeVkVAZ5eUBnogXUy4MGJ7mgGzS6GBRoRTAapPDmpEVaemrIH/wBIEr+kTOatKGsYaP1cRpvHeH17pnqZimZaQsRaxOY3B+zfKb7g266o8EKmuucXXK/IEAim2VyDoQrZWI/ZkKsql3sBcZaR1BJF82U7DxX95MCvFKxaq7HmxI8hsB7AWiU9ZrzyaZXRrEQyNcC242gBrD3A+G/mZKsEw4sSzbecYw3EWV1ddMjBvzHuNJmsb7nWWLMND62jF19jwWIWogddmCsPQgGBxCWN5zPYvit1NI7pqvmhO3sT9ROqxK5hfl+Mx0sZNbfN8pt8KxTqy1MoI2Ycxb8Ot5k1F1jvD8T3bE/ZKkEDWxIIDW8tJjGtdhjAKqF0NyCCBtyvlPnpsdNiJlYuuFDFmCBSzliRYKWzBif2c7fKZHEOPJRRwobOwAVQQUJI1JPJbzju2XFHelTQMQrEs67AlQuXQctSdec1zKnVU7a9pmrnuEI7lT8Q3qWOYE3GgBJt13mCjlwGBuyDKVsxBpqALsVGmnh5aCZzXsLwuFxLU2DKddrciDuGHMHpOknhjWrXwjK1PKC4qKGp5QSWPwsgG+ZXDLbfQdRKOSpsQQQbEEWII3BB2PlCYekzlTSvZm0UtoHym6fvWsBf4vD6CcS4i2IfvGAvkRSbklsiKmdid2IUGT7VRakuasQd7SvezcrNh1mirvrBitBO8BjvJbNpFBUlTUhBneDZ4ItPJFEvPM0pJAk9BjGal0b5iTNT+63zhcL3noMYz0/un5z0PS+4380hhfNJnjS9xzDfzf8AGe3ofdb+b/jBhTvDJmjdqHVh73/6ZEWhzZ/QAf1EBO89BmhbDdX9wf6GM0sdQS2VEuDfMUdm2tuXt9IHnDVyAHUVHNiCNBStmLetwNOanzmXia5c3Pn8ybknzM0sTjkfdmsABottALW+KIOKXIsP4f8AlECshEZC0+bP8h+cr+r/AG/9sqBAiMkqEIvc6Ee4sR7afOUvS6P81/KXV6PNH/mH5SKXVT0/sx7DKSSD1G4ubWtpKGvSGyP7tPRi0+4f5z+Ul1R6FRqTq67q1yNBcW1Hpa8+mcPqq6b+gnysYxfuf7jOywFd6aKwBBCqCL6HQc+RtaSz9I28UljE8Xigi3tdraD++UBieOKy6L4h10APvzmaFZ7ljvCqoC7lib3OvrM3tK5DKtvDYnkdSdvlY+/y0+8Wndm2X6nkPnOexmKV2uxJubkjf58pYlZ9xBmOhqHMVD5XUfgIVK2G506h/jA/pNMq8Idu8VQ+QMRdrgWtqCL6ZunrbnH+JYWomV6lN0L3LZlIBa9yQbAa3GkBTr4LnRre1Rf6rOgTtogQIUqMAAoDmm4sBlAOZNdAN5LquOqvcypbSdv/AOq8IwBbC0rg7GhROnqqRij2qwQIIw2GUjUH9GS49wkbfwfPs08LT6BxDtXh2BzYfDOSP/pS5/ispBmJ/nmFJ/8AhUreSv8A9yNv4jmLyTpX4xhfs4VPO6H+tQyi8bof6Sh/IfzMaOdknR/59Q/0dH5Af9Mr/nlD/RUPfN/QCNv4uOektOjPHMN/oaR9GcQ1PjmBtrw9b+VV7fjG38MctJJJKiSSSQJJJJAkkkkCSSSQJJJJAkkkkCSSSQJJJJAk7fg/G6TUwrsFdVytmIs4AtcE7nykkko9q00LA7g7ML7efWGqOEXkBvcnl1kkmY25Ti+O7xrKSVHyLdbTMkkm2EkkkgSSSSBJJJIEkkkgSSSSBJJJIEkkkgf/2Q=="
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Game of Thrones</h5>
+            <div class="sub">
+              <a href="#" class="btn btn-danger">Subscribe</a>
+            </div>
+          </div>
+        </div>
+        <div class="card ms-3" style="width: 18rem;">
+          <img
+            src="https://assets.gqindia.com/photos/5cdc5de86b46cace92597ad9/16:9/w_2560%2Cc_limit/Peeky-Blinders-Movie-Trailer.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Peaky Blinders</h5>
+            <div class="sub">
+              <a href="#" class="btn btn-danger">Subscribe</a>
+            </div>
+          </div>
+        </div>
+        <div class="card ms-3" style="width: 18rem;">
+          <img src="https://ntvb.tmsimg.com/assets/p23063500_b_h8_ad.jpg?w=1280&h=720" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Wednesday</h5>
+            <div class="sub">
+              <a href="#" class="btn btn-danger">Subscribe</a>
+            </div>
+          </div>
+        </div>
+        <div class="card ms-3" style="width: 18rem ;">
+          <img src="https://cdn.wallpapersafari.com/7/54/v7t0ST.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Money Heist</h5>
+            <div class="sub">
+              <a href="#" class="btn btn-danger">Subscribe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex mt-5">
+        <div class="card ms-3" style="width: 18rem;">
+          <iframe width="280" height="215" controls loop autoplay src="https://www.youtube.com/embed/DvNQwzzB8pg"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Heart of Stone | Gal Gadot | Official Trailer | Netflix</h5>
+            <div class="sub2">
+              <a href="#" class="btn btn-danger">Subscribe</a>
+            </div>
+          </div>
+        </div>
+        <div class="card ms-3" style="width: 18rem;">
+          <iframe width="280" height="215" controls loop autoplay src="https://www.youtube.com/embed/dljEVygvwG8"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">King of Kotha Official Trailer | Dulquer Salmaan | Abhilash Joshiy | Jakes Bejoy -
+              Zee Studio</h5>
+            <div class="sub2">
+              <a href="#" class="btn btn-danger">Subscribe</a>
+            </div>
+          </div>
+        </div>
+        <div class="card ms-3" style="width: 18rem;">
+          <iframe width="280" height="215" src="https://www.youtube.com/embed/rAWv3Kfyt5s" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Pulimada Official Teaser | Joju George | A K Sajan | Aiswarya Rajesh | Venu ISC</h5>
+            <div class="sub2">
+              <a href="#" class="btn btn-danger">Subscribe</a>
+            </div>
+          </div>
+        </div>
+        <div class="card ms-3" style="width: 18rem ;">
+          <iframe width="280" height="215" control loop autoplay src="https://www.youtube.com/embed/bUR_FKt7Iso"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Salaar Teaser | Prabhas, Prashanth Neel, Prithviraj, Shruthi Haasan, Hombale Films,
+              Vijay Kiragandur</h5>
+              <div class="sub2">
+                <a href="#" class="btn btn-danger">Subscribe</a>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+<style>
+  .img1 {
+    height: 100px;
+    width: 140px;
+  }
+  .sub{
+    margin-left: 160px;
+  }
+  .sub2{
+    margin-left: 160px;
+  }
+  .divo{
+    border:none;
+    background-color: rgb(225, 225, 225);
+    position: absolute;
+    right: 200px;
+    top: 25px;
+    margin-top: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+   padding-top: 12px;
+   padding-bottom: 20px;
+  border-top-right-radius: 42%;
+  border-bottom-right-radius: 42%;
+  }
+  i{
+   
+    font-size: 20px;
+  }
+</style>
